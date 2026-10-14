@@ -3,6 +3,9 @@
 .env.local
 .env.production
 
+# API folder (sensitive - exclude from upload)
+api/
+
 # Upload directories
 uploads/
 !uploads/.gitkeep
