@@ -1,0 +1,35 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+
+# Upload directories
+uploads/
+!uploads/.gitkeep
+
+# Logs
+*.log
+error.log
+debug.log
+checkout-error.log
+checkout-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cache
+cache/
+tmp/
+temp/
+
+# XAMPP specific
+xampp/
